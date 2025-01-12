@@ -1,0 +1,122 @@
+* {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar{margin-top: 50px;
+    height: 60px ;
+    a{
+        margin-right: 40px;
+        text-decoration: none;
+        color:black
+    }
+}
+#ser{    background: var(--search-input-background);
+    border: 1px solid var(--search-input-border);
+    padding: 5px 12px 5px 36px;
+    height: unset;
+    border-radius: 4px;
+    color: var(--search-input-foreground);}
+
+.btn {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #070605;
+}
+
+button {
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.content {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.content button {
+    margin: 10px;
+}
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.grid-item {
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    animation: fadeIn 1s ease-in-out;
+}
+.feature {
+flex: 1 1 30%;
+padding: 1rem;
+margin: 0.5rem;
+background: #f9f9f9;
+border-radius: 1px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feature h3 {
+font-size: 1.5rem;
+margin-bottom: 1rem;
+}
+
+.feature p {
+font-size: 1rem;
+} 
+.copilot {
+    background: url(/assets/home/copilot-free-banner-bg-light.webp);
+    background-size: cover;
+    background: url(/assets/home/copilot-free-banner-bg-dark.webp);
+    background-size: cover;
+    border: solid 1px var(--card-border);
+    border-radius: 8px;
+    padding: 40px 0;
+    display: flex;
+    align-items: baseline;
+    padding: 40px 0;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-direction: row;
+    padding: 30px 0;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.character{
+    position: relative ;
+    width: 70%;
+    left:15;
+    top:150%;
+    bottom: 20%;
+    padding: 30px;
+       img{
+        float: right;
+       }
+        }
